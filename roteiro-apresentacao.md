@@ -4,31 +4,31 @@ Público: Gestores e Superintendentes | Tempo estimado: ~8 minutos
 Diretriz: Narre a estratégia e o valor de negócio, demonstrando domínio técnico de forma natural.
 
 ABERTURA — Capa e Propósito
-⏱ 45 segundos
+45 segundos
 
-"Bom dia/boa tarde a todos. Meu nome é [Seu Nome], sou estagiário na área de Sistemas, e hoje apresento o projeto final do meu Programa de Capacitação: o BS One.
+"Bom dia/boa tarde a todos. Nós somos o grupo Helix, e hoje viemos apresentar o projeto final do Programa de Capacitação: o BS One.
 
 O BS One é um projeto que nasce com um propósito muito claro: levar a inteligência e a conveniência do agendamento digital — que hoje a Bradesco Saúde já consolida nos hospitais da rede Novamed — para dentro do aplicativo do beneficiário, abraçando também as clínicas parceiras e os médicos autônomos.
 
 Ao longo dos próximos minutos, vou mostrar como transformamos essa oportunidade em uma solução de software robusta, escalável e de alto valor para o nosso ecossistema."
 
 BLOCO 1 — O Cenário Atual e a Oportunidade
-⏱ 2 minutos
+2 minutos
 
 "Para compreendermos o valor do BS One, precisamos olhar para como a jornada de agendamento funciona hoje na nossa rede credenciada externa.
 
-Atualmente, o Bradesco Saúde oferece uma experiência excelente de agendamento digital para os hospitais integrados à rede Novamed. No entanto, quando o beneficiário precisa de uma consulta com um médico autônomo ou em uma clínica parceira, essa experiência digital é interrompida.
+Atualmente, o Bradesco Saúde oferece uma experiência excelente de agendamento digital para os hospitais integrados à rede Novamed. No entanto, quando o beneficiário precisa de uma consulta com um médico autônomo ou em uma clínica parceira, essa experiência é completamente diferente.
 
-O cenário atual se divide em três grandes dores:
+Esse cenário se divide em três grandes dores:
 
 Para o Cliente: Ele precisa abrir o aplicativo, localizar o médico no livro de prestadores, sair do ambiente Bradesco e fazer um contato analógico — seja por telefone ou WhatsApp — para tentar conciliar um horário. É uma jornada fragmentada.
 
 Para Médicos Autônomos e Clínicas: Há total imprevisibilidade. A ocupação das suas agendas depende exclusivamente de o paciente tomar a iniciativa ativa de ligar e marcar.
 
-Para a Operadora (Bradesco): Nós perdemos a rastreabilidade da jornada do cliente justamente no momento crucial da marcação da consulta."
+Para o Bradesco: Nós perdemos a rastreabilidade da jornada do cliente justamente no momento crucial da marcação da consulta."
 
-BLOCO 2 — A Solução: Módulo BS One
-⏱ 2 minutos
+BLOCO 2 — A Solução: API BS One
+2 minutos
 
 "A resposta a esse cenário é o BS One: um novo módulo back-end que estende a capacidade de agendamento nativa do ecossistema Bradesco Saúde.
 
@@ -43,7 +43,7 @@ Módulo de Negócio (Java e Spring Boot): Onde processamos as regras de elegibil
 Camada de Integração: Onde os consultórios parceiros conseguem disponibilizar e sincronizar suas agendas com o ecossistema Bradesco."
 
 BLOCO 3 — Valor Agregado e Regras de Negócio
-⏱ 2 minutos
+2 minutos
 
 "O grande diferencial do BS One não é apenas digitalizar um processo, mas sim o impacto estratégico que ele gera para cada ator envolvido:
 
@@ -56,7 +56,7 @@ Para a Bradesco Saúde: Retemos o cliente na nossa plataforma do início ao fim 
 Tudo isso opera sob regras de negócio rígidas: validação automatizada de cobertura e carência antes de fechar o agendamento, e total conformidade com a LGPD no tratamento de dados de saúde."
 
 BLOCO 4 — Processo de Desenvolvimento (MVP)
-⏱ 1 minuto e 15 segundos
+1 minuto e 15 segundos
 
 "Como projeto do Programa de Capacitação, o desenvolvimento do BS One foi conduzido ao longo de quatro semanas utilizando a metodologia ágil para a entrega de um MVP (Mínimo Produto Viável):
 
@@ -67,13 +67,14 @@ Tecnologia: A solução foi construída utilizando a linguagem Java com o framew
 O foco total foi garantir que a arquitetura proposta é viável e que as regras de negócio de agendamento funcionam perfeitamente."
 
 ENCERRAMENTO
-⏱ 45 segundos
+45 segundos
 
 "Para concluir, o BS One unifica a jornada de saúde do nosso cliente. Nós pegamos um modelo de sucesso interno e o expandimos para valorizar os médicos autônomos e clínicas parceiras que movem a nossa rede externa. Passamos de uma operadora que apenas indica um telefone para uma operadora que efetivamente conecta o paciente ao cuidado médico.
 
 Muito obrigado a todos pela atenção. Estou à disposição para as perguntas dos senhores."
 
-💡 Q&A: Perguntas Prováveis (Ajustadas para Gestores)
+ 
+ Q&A: Perguntas Prováveis (Ajustadas para Gestores)
 1. "Como os médicos autônomos vão colocar a agenda deles nesse sistema?"
 
 "Para este MVP, a API do BS One foi estruturada para receber essas grades de horários. Em uma fase futura de implantação, o caminho ideal seria disponibilizar um portal simplificado para o médico gerenciar seus horários ou integrar a API do BS One diretamente com os principais softwares de prontuário eletrônico de mercado que as clínicas já utilizam."
